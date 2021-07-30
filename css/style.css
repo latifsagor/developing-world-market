@@ -14,13 +14,48 @@ body{
     font-family: 'Lato', 'Arial', sans-serif;
 }
 
+p{
+    color: #515151;
+}
+
 /* header */
-.navigation-bar{
+header{
     background-color: #003A40;
 }
 
 .humburger i{
     color: white;
     font-size: 17px;
+}
+
+hr{
+    height: 3px !important;
+}
+
+blockquote::before{
+    content: open-quote;
+    font-size: 20px;
+}
+
+blockquote::after{
+    content: close-quote;
+    font-size: 20px;   
+}
+
+/* Questionnaire & Scorecard impact section start */
+.questionnaire-row, .frequent-row, .achieving-row{
+    border-left: 9px solid #003A40;
+}
+
+.blog-list{
+    list-style: none;
+}
+
+.questionnaire-list li{
+    color: #515151;
+}
+
+.achievement-block{
+    color: #048C98;
 }
 
