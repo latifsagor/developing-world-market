@@ -71,10 +71,12 @@ blockquote::after{
 
 /* tablet version */
 @media only screen and (min-width: 481px) and (max-width: 768px){
-    
+    .blog-list{
+        display: none;
+    }
 }
 
-/* tablet version */
+/* laptop version */
 @media only screen and (min-width: 769px) and (max-width: 1024px){
     
 }
