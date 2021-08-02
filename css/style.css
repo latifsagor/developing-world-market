@@ -44,7 +44,7 @@ blockquote::after{
 }
 
 /* Questionnaire & Scorecard impact section start */
-.questionnaire-row, .frequent-row, .achieving-row{
+.questionnaire-row, .frequent-row, .achieving-row, .impactSpotlights-row{
     border-left: 9px solid #003A40;
 }
 
@@ -60,3 +60,21 @@ blockquote::after{
     color: #048C98;
 }
 
+/* Media Query Breakpoints */
+
+/* mobile version */
+@media only screen and (max-width: 480px){
+    .blog-list{
+        display: none;
+    }
+}
+
+/* tablet version */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    
+}
+
+/* tablet version */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    
+}
